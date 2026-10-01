@@ -10,7 +10,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:8787',
+        target: 'https://kidguard-api.marksonalpha70.workers.dev',
         changeOrigin: true
       }
     }
